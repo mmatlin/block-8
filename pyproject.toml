@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "b8-vm"
+name = "block_8"
 version = "0.1.0"
 description = ""
 authors = ["mmatlin <33261504+mmatlin@users.noreply.github.com>"]
@@ -10,9 +10,10 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 black = "^20.8b1"
+pylint = "^2.7.4"
 
 [tool.poetry.scripts]
-block8_vm = "b8_vm.__main__:run"
+block_8_vm = "block_8.b8_vm.__main__:run_from_entry_point"
 
 [build-system]
 requires = ["poetry>=0.12"]

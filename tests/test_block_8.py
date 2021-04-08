@@ -1,4 +1,4 @@
-from b8_vm import __version__
+from block_8 import __version__
 
 
 def test_version():
